@@ -1,0 +1,33 @@
+.MarocainResidentPack-div{
+    margin-top: 60px;
+}
+.MarocainResidentPack-title{
+    font-family: product-sans-regular;
+	font-size: 33px;
+	font-weight: 400;
+	letter-spacing: -0.51546px;
+	line-height: 40px;
+	text-decoration: none solid rgb(0, 68, 117);
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(0, 68, 117);
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+.pack-div-btn{
+    margin-bottom: 0;
+}
+.MarocainResidentPack-div  .pack-div-body-text{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.MarocainResidentPack-div .pack-div{
+    min-height: 70vh;
+    flex-direction: column;
+    display: flex;
+}
+.MarocainResidentPack-div .pack-div-btn{
+    margin-top: auto;
+}

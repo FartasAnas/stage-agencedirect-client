@@ -1,0 +1,50 @@
+footer{
+	margin-top: auto;
+}
+.footer-text{
+    font-family: product-sans-regular;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.11256px;
+	line-height: 15px;
+	text-decoration: none solid #5D86A3;
+	background-color: rgba(0, 0, 0, 0);
+	color: #5D86A3;
+}
+.footer-icons{
+	color: #5D86A3;
+	border: 0px none #5D86A3;
+}
+.footer-btn{
+	margin-top: 2px;
+	font-family: product-sans-regular;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.11256px;
+	line-height: 15px;
+	background-color: rgba(0, 0, 0, 0);
+	color: #5D86A3;
+	height: 18px;
+	width: 126px;
+	border: 2px solid #5D86A3;
+	padding: 10.5px 32px 10.5px 14px;
+	max-height: none;
+	min-height: auto;
+	max-width: none;
+	min-width: 16px;
+	box-sizing: content-box;
+	text-overflow: ellipsis;
+}
+.footer-icon-outer:hover{
+	background-color:#E0E0E0;
+}
+.footer-icon-outer:hover .footer-icons{
+	color: rgb(0, 69, 117);
+}
+.footer-btn:hover{
+	color: rgb(0, 69, 117);
+	border: 2px solid rgb(0, 69, 117);;
+}
+.footer-text:hover{
+	color: rgb(0, 69, 117);
+}

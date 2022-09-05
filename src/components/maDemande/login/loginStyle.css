@@ -1,0 +1,44 @@
+.ma-demande{
+    margin-top: 60px;
+}
+.ma-demande body{
+    color: #737171  ;
+    font-family: product-sans-regular;
+}
+.login-page{
+    font-family: product-sans-regular;
+}
+.ma-demande .btn-outline-primary{
+    border-color: #2EBC34;
+    color: #2EBC34;
+}
+.ma-demande .btn-outline-primary:hover{
+    background-color: #279D2C;
+    color: white;
+}
+.ma-demande .suivant-btn{
+    background-color: #2EBC34;
+}
+.ma-demande .suivant-btn:hover{
+    background-color: #279D2C;
+    color: white;
+}
+.ma-demande .form-inputs:hover{
+    color: black;
+}
+.ma-demande .retour-icon {
+    margin-right: 10px;
+}
+.ma-demande .retour-div{
+	font-family: product-sans-regular;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.15008px;
+	line-height: 19px;
+	text-decoration: none solid rgb(0, 178, 187);
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(0, 178, 187);
+	border: 0px none rgb(0, 178, 187);
+	margin: 0px 0px 5px;
+}

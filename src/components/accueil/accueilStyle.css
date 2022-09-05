@@ -1,0 +1,121 @@
+.accueil-title{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: -0.4686px;
+	line-height: 46px;
+	text-decoration: none solid rgb(0, 68, 117);
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.title-span{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: -0.4686px;
+	line-height: 46px;
+	text-decoration: none solid rgb(0, 189, 187);
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(0, 189, 187);
+	margin: 0px 10px;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.h2-title{
+	font-family: product-sans-regular;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 45px;
+	text-decoration: none solid rgb(0, 189, 187);
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(0, 189, 187);
+	height: 45px;
+	width: 1409.25px;
+	margin: 15px 0px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.col-text{
+	font-family: product-sans-regular;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.1407px;
+	line-height: 19px;
+	text-decoration: none solid rgb(29, 113, 184);
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(29, 113, 184);
+	border: 0px none rgb(29, 113, 184);
+    margin-bottom: -6px;
+    margin-top: 2px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.choices-div{
+    background-color: white;
+}
+.choices-div:hover {
+	transform: scale(1.06);
+}
+.choices-div:hover .link-text{
+	color: rgb(46, 188, 52);
+}
+.link-text{
+	
+	font-family: product-sans-regular;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0.48569px;
+	line-height: 24px;
+	background-color: rgba(0, 0, 0, 0);
+	color: #002646;
+	max-width: 100%;
+	max-height: 100%;
+}
+.link-icon{
+	margin-left: 12px;
+	margin-bottom: -2px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.check-icon{
+	height: 28px;
+	width: 28px;
+	color: #00BDBB;
+	margin-right: 5px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.aventage-text{
+	font-family: product-sans-regular;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.16884px;
+	line-height: 22px;
+	text-decoration: none solid rgb(0, 68, 117);
+	margin: 5px;
+	color: rgb(0, 68, 117);
+	max-width: 100%;
+	max-height: 100%;
+}
+.aventage{
+	width: 520px;
+	max-width: 100%;
+}
+.video-title{
+	font-family: product-sans-regular;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: -0.23324px;
+	line-height: 34.44px;
+	text-decoration: none solid rgb(0, 189, 187);
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(0, 189, 187);
+	max-width: 100%;
+	max-height: 100%;
+}
+iframe{
+	height: 280px;
+	width: 500px;
+	max-width: 100%;
+	max-height: 100%;
+}

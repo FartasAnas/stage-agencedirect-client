@@ -1,0 +1,12 @@
+.ma-demande .new-code-page{
+    font-family: product-sans-regular;
+}
+.ma-demande .sous-title{
+	font-family: product-sans-regular;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16.94px;
+	text-decoration: none solid rgb(196, 196, 196);
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(196, 196, 196);
+}

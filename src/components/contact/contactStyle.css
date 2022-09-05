@@ -1,0 +1,33 @@
+.contact-div{
+    margin-top: 60px;
+}
+.contact-title{
+    font-family: product-sans-regular;
+	font-size: 33px;
+	font-weight: 400;
+	letter-spacing: -0.51546px;
+	line-height: 40px;
+	text-decoration: none solid rgb(0, 68, 117);
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(0, 68, 117);
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+.contact-second-title{
+    /* Font & Text */
+	font-family: product-sans-regular;
+	font-size: 21px;
+	font-weight: 400;
+	letter-spacing: -0.17493px;
+	line-height: 25px;
+	text-decoration: none solid rgb(0, 189, 187);
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(0, 189, 187);
+	margin: 0px 0px 30px;
+}
+.contact-info-div{
+    background-color: white;
+}
