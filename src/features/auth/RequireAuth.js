@@ -21,7 +21,7 @@ const RequireAuth = () => {
             ? <Outlet /> 
         : <>
             {localStorage.removeItem("user")}
-            <Navigate to="/new-access-code" state={{ from: location }} replace />
+            <Navigate to="/login" state={{ from: location }} replace />
         </> 
     )
 }

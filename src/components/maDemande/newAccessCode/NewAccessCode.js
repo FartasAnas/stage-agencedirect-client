@@ -18,15 +18,15 @@ export const NewAccessCode = () => {
         <button type="submit" className="btn btn-outline-light suivant-btn"> Suivant</button>
     )
     const [email,setEmail]=useState("")
-    const sendMail=true
+    const sendMail=false
     const [errMsg, setErrMsg] = useState('');
     const handleSubmit = async (e)=>{
         e.preventDefault();
         try{
             setBtn(
                 <button type="submit" className="btn btn-outline-light suivant-btn" disabled>
-                <div class="spinner-border" role="status">
-                    <span class="visually-hidden">Loading...</span>
+                <div className="spinner-border" role="status">
+                    <span className="visually-hidden">Loading...</span>
                 </div>
                 </button>
             )

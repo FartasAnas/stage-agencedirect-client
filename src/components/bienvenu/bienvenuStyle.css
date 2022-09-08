@@ -1,0 +1,48 @@
+.bienvenu-div{
+    margin-top: 60px;
+}
+.bienvenu-container-div{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0px;
+    padding: 40px 60px;
+    max-height: none;
+    min-height: 0px;
+    max-width: 100%;
+    min-width: 0px;
+}
+.bienvenu-icon{
+    color:rgb(51, 153, 254);
+}
+.bienvenu-title{
+    font-family: product-sans-regular;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(51, 153, 254);
+    text-align: left;
+    margin: 0px;
+    padding: 0px 0px 10px;
+    max-height: none;
+    min-height: 0px;
+    max-width: none;
+    min-width: 0px;
+}
+.bienvenu-txt{
+    font-family: product-sans-regular;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.13132px;
+    line-height: 20px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(158,159,163);
+    border: 0px none rgb(115, 113, 113);
+    margin: 20px 0px;
+    margin-bottom: 9px;
+    margin-left: 3px;
+}
+.bienvenu-btn-div{
+    padding: 40px 60px 0px 60px
+}

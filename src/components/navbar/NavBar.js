@@ -31,6 +31,10 @@ const NavBar =()=>{
             setRightBtnTxt("Ma Profile")
             setRightBtnLinkTo("/home")
         }
+        else{
+            setRightBtnTxt("Ma demande")
+            setRightBtnLinkTo("/login")
+        }
     }, [location])
     
     const [anchorElNav, setAnchorElNav] = useState(null);

@@ -8,6 +8,36 @@ export const GenerateNewAccessCode=createAsyncThunk(
         return response.data
     }
 )
+export const getAllAgence = createAsyncThunk(
+    "client/getAllAgence",
+    async () => {
+        const response = await ClientServices.getAllAgence();
+        return response.data;
+    }
+);
+export const addEtudiant = createAsyncThunk(
+    "client/addEtudiant",
+    async ({email,prenom,nom,dateNaissance,telephone,cin,adresse,codePostale,ecole,agence,pack,cinRectoURL,cinVersoURL,selfieURL}) => {
+        const response = await ClientServices.addEtudiant({email,prenom,nom,dateNaissance,telephone,cin,adresse,codePostale,ecole,agence,pack,cinRectoURL,cinVersoURL,selfieURL});
+        return response.data;
+    }
+)
+export const addMarocainResident = createAsyncThunk(
+    "client/addMarocainResident",
+    async ({email,prenom,nom,dateNaissance,telephone,cin,adresse,codePostale,profession,agence,pack,cinRectoURL,cinVersoURL,selfieURL}) => {
+        const response = await ClientServices.addMarocainResident({email,prenom,nom,dateNaissance,telephone,cin,adresse,codePostale,profession,agence,pack,cinRectoURL,cinVersoURL,selfieURL});
+        return response.data;
+    }
+)
+export const getClientByEmail = createAsyncThunk(
+    "client/getClientByEmail",
+    async (email) => {
+        const response = await ClientServices.getClientByEmail(email);
+        return response.data;
+    }
+)
+
+
 
 export const ClientSlice=createSlice({
     name:'client',

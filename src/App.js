@@ -19,6 +19,7 @@ import RequireAuth from "./features/auth/RequireAuth";
 import StudentPack from "./components/packs/studentPack/StudentPack";
 import MarocainResidentPack from "./components/packs/marocainResidentPack/MarocainResidentPack";
 import AccountCreation from "./components/accountCreation/AccountCreation";
+import Bienvenu from "./components/bienvenu/Bienvenu";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route path="studentPack" element={<StudentPack/>}/>
             <Route path="marocainResidentPack" element={<MarocainResidentPack/>}/>
             <Route path="creation-compte" element={<AccountCreation/>}/>
+            <Route path="bienvenu" element={<Bienvenu/>}/>
             {/* Protected Routes */}
             <Route element={<RequireAuth/>}>
               <Route path="home" element={<Home/>} />

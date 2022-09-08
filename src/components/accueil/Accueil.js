@@ -8,6 +8,9 @@ import StudentIcon from '../../images/student-icon.png';
 
 
 export default function Accueil() {
+  const HandleResidentEtrangerClick=(e)=>{
+    alert("Coming in Future Releases")
+  }
   return (
     <div className='row d-flex justify-content-center w-100'>
         {/* header div */}
@@ -41,7 +44,7 @@ export default function Accueil() {
                   <img src={PlaneIcon} className="col-icons" alt=""/>
                     <p className="col-text ">Marocain résidant à l'étranger</p>
                     <hr/>
-                    <Link to="/" className='d flex justify-content-center text-decoration-none '>
+                    <Link to="/" className='d flex justify-content-center text-decoration-none ' onClick={HandleResidentEtrangerClick}>
                       <p className="link-text ">
                         Je découvre l'offre 
                         <i className="fa fa-angle-right link-icon"></i>

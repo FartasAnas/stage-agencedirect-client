@@ -1,0 +1,14 @@
+.spinner {
+    height: 100px;
+    width: 100px;
+}
+.spinner-div{
+    height: 75vh;
+}
+.ClientInfo{
+    margin-top: 60px;
+}
+.cin{
+    max-width: 100%;
+    max-height: 100%;
+}
